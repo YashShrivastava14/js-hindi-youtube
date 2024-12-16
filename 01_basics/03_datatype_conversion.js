@@ -1,6 +1,6 @@
-let score = "yash12";   //string
-// let newScore = Number(score)
-  newScore = Boolean(score)
+let score = "yash";   //string
+let newScore = Number(score)
+  // newScore = Boolean(score)
   // newScore = NaN
   // newScore = undefined
 
@@ -23,13 +23,15 @@ let newbullu = Number(bullu)
 // console.log(newbullu);
 
 
-console.log( newAge)
-
-console.log(typeof age + " --> " + typeof newAge ); 
+console.log( score)
+console.log(typeof score + " --> " + typeof newScore ); 
+console.log( newScore)
 
 /*
 
-"yash123" ---number---> NaN
+"123" ---number--->  123
+"yash123" ---number--->  NaN
+"yash" ---number---> NaN
 undefined ---number---> NaN
 null ---number---> 0
 NaN ---number--->  NaN
