@@ -1,4 +1,4 @@
-let score = "yash";   //string
+let score = null;   //string
 let newScore = Number(score)
   // newScore = Boolean(score)
   // newScore = NaN
@@ -33,7 +33,7 @@ console.log( newScore)
 "yash123" ---number--->  NaN
 "yash" ---number---> NaN
 undefined ---number---> NaN
-null ---number---> 0
+null ---number---> 0  
 NaN ---number--->  NaN
 string ---boolean--->  true
 empty string "" ---boolean--->  false
