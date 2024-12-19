@@ -17,7 +17,7 @@ console.log(str2.length);
 console.log(str2.indexOf('a'));
 console.log(str2.length);
 console.log(str2.toLowerCase());
-console.log(str2.search('rivas'));      //search a substring
+console.log(str2.search('rivas'));      //search a substring,return index 
 console.log(str2.slice(2,11));          //breaks a array 
 console.log(str2.replace('S','P'));         // replace 1st occurance
 console.log(str2.replaceAll('a','u'));      //replace all occurances
