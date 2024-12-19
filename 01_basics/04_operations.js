@@ -12,6 +12,7 @@ console.log(2 + 4);             //considered whole as numbers
 
 // UNARY OPERATOR converts the type of its operand to a Number
 
+console.log(2+ +"123")      //it will give 125
 console.log(+"");
 console.log(+"yash12");
 console.log(+"123");
