@@ -10,14 +10,14 @@ let num2 = new Number(8754.6470)
 console.log(num2.toFixed(2));   // round of to 2 DPs for floats , add 2 decimals to integers ----> focus on digits after decimal
 
 let preciseNum = num2.toPrecision(3)
-// console.log( preciseNum)
+ console.log( preciseNum)
 // console.log( preciseNum.length);
 
 let num3 = 4000000
 console.log(num3.toLocaleString('en-IN'));  // separate with commas
 
-let bigNum = (Number.MAX_VALUE)*2
-// let bigNum = (Number.MAX_VALUE)+100     //will not impact as it is not sufficient large number
+// let bigNum = (Number.MAX_VALUE)*2       //result infinity
+ let bigNum = (Number.MAX_VALUE)+100     //will not impact as it is not sufficient large number
 console.log(bigNum);
 
 let pi = 3

@@ -5,10 +5,10 @@ console.log(2 + 5+ "4");        //considered whole as numbers
 console.log(2 + 4);             //considered whole as numbers
 
 
-// console.log(+true);
-// console.log(+2);
-// console.log(+null);
-// console.log(+undefined)
+console.log(+true);
+console.log(+2);
+console.log(+null);
+console.log(+undefined)
 
 // UNARY OPERATOR converts the type of its operand to a Number
 

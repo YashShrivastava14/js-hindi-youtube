@@ -10,8 +10,8 @@ comparisons(<,>,<=,>=) convert the datatype to number
 */ 
 
 
-// console.log("yash" <= NaN);
-// console.log(null <= 0);
+console.log("yash" <= NaN);
+console.log(null >= 0);
 
 console.log(undefined == null);
 console.log(undefined == 0);
