@@ -16,10 +16,11 @@ let newArr = new Array(11,12,13,14,15,16)
 // console.log(newArr);
 
 //  ------------ Array Methods ---------------
- newArr.push(17, 18, "nineteen")
+
+ newArr.push(17, 18, "nineteen")  // <--- this method returns length of new arr
 //  console.log(newArr);
  
- newArr.pop()
+ newArr.pop()   //  <--- this method returns popped value
 //  console.log(newArr);
 
 newArr.unshift(10)      //push at head
